@@ -519,6 +519,7 @@ module.exports = function (webpackEnv) {
                   sassOptions: {
                     includePaths: [paths.appSrc + ".styles"],
                   },
+                  additionalData: "@import 'utils';",
                 },
               }),
               sideEffects: true,
