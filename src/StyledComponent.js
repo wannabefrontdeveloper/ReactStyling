@@ -54,11 +54,12 @@ const Button = styled.button`
       background: none;
       border: 2px solid white;
       color: white;
+
       &:hover {
         background: white;
         color: black;
       }
-    `};
+    `}
 
   & + button {
     margin-left: 1rem;
